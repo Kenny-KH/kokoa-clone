@@ -7,6 +7,7 @@
 /* Component*/
 @import "component/status.css";
 @import "component/nav-bar.css";
+@import "component/screen-header.css";
 body {
   font-family: "Open Sans", sans-serif;
 }
