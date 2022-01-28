@@ -3,11 +3,13 @@
 
 /* Screens */
 @import "screens/login.css";
+@import "screens/friends.css";
 
 /* Component*/
 @import "component/status.css";
 @import "component/nav-bar.css";
 @import "component/screen-header.css";
 body {
+  color: #2e363e;
   font-family: "Open Sans", sans-serif;
 }
