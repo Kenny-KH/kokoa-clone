@@ -8,6 +8,7 @@
 }
 
 .user-component__avatar {
+  object-fit: cover;
   width: 70px;
   height: 70px;
   border-radius: 25px;
@@ -28,4 +29,18 @@
 .user-component__avatar--xl {
   width: 80px;
   height: 80px;
+}
+
+.user-component__avatar-sm {
+  height: 60px;
+  height: 60px;
+  border-radius: 25px;
+}
+
+.user-component__title--not-bold {
+  font-weight: 400;
+}
+
+.user-component__coloumn:last-child {
+  color: rgba(0, 0, 0, 0.5);
 }
