@@ -4,14 +4,27 @@
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
 
 /* Component*/
 @import "component/status.css";
 @import "component/nav-bar.css";
 @import "component/screen-header.css";
 @import "component/user-component.css";
-
+@import "component/badge.css";
+@import "component/icon-row.css";
+@import "component/alt-screen-header.css";
 body {
   color: #2e363e;
   font-family: "Open Sans", sans-serif;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}
+
+img {
+  object-fit: cover;
 }
